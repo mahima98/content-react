@@ -7,7 +7,7 @@ export default function UpdateProfileName({
 }) {
   const [newName, setNewName] = useState(username);
   const onClickUpdate = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // it doesn't update the username without this, why ?
     onUpdateUserName(newName);
   };
   return (
