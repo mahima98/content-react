@@ -11,7 +11,7 @@ function App() {
     <div className="flex flex-col justify-between h-screen">
       <Header username={username} brandname={brandname} onUpdateUserName={setUserName}/>
       <Main username={username} brandname={brandname} onUpdateUserName={setUserName}/>
-      <Footer username={username} brandname={brandname} />
+      <Footer username={username} brandname={brandname} onUpdateUserName={setUserName} />
     </div>
   );
 }
