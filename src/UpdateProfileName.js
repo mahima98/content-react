@@ -13,7 +13,7 @@ export default function UpdateProfileName({
   return (
     <div className="py-16">
       <h1 className="text-3xl text-center font-bold py-4">
-        {brandname} Profile
+        {brandname} Profiles
       </h1>
 
       <h3 className="text-center pb-4">Please update your name</h3>
